@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: crmuser
+    description: "customer related information"
+    schema: BRONZE
+    tables:
+      - name: account
+        description: "this contain account information in banking domain"
