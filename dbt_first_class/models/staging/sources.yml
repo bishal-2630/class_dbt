@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: crmuser
+    description: "customer related information"
+    schema: BRONZE
+    tables:
+      - name: account
+        description: "this contain account information"
+      - name: customer
+        description: "this contain customer information"
+      - name: branch
+        description: "this contain branch information"
