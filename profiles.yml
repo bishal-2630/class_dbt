@@ -1,11 +1,11 @@
 dbt_first_class:
   outputs:
     dev:
-      dbname: postgres
+      dbname: dbt_data
       host: localhost
-      pass: postgres
+      pass: PgData@9867
       port: 5432
-      schema: public
+      schema: bronze
       threads: 2
       type: postgres
       user: postgres
